@@ -101,7 +101,7 @@ public class BallController : MonoBehaviour
 
     private void JumpInWater()
     {
-        // Применяем усиленную силу вверх для прыжка в воде (в 3 раза мощнее обычного)
+        // Применяем усиленную силу вверх для прыжка в воде (в 6 раза мощнее обычного)
         ball.AddForce(Vector3.up * jumpForce * 6 / 10000, ForceMode.Impulse);
     }
 
